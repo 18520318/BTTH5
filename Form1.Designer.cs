@@ -173,13 +173,6 @@
             // cbxPhone
             // 
             this.cbxPhone.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbxPhone.Items.AddRange(new object[] {
-            resources.GetString("cbxPhone.Items"),
-            resources.GetString("cbxPhone.Items1"),
-            resources.GetString("cbxPhone.Items2"),
-            resources.GetString("cbxPhone.Items3"),
-            resources.GetString("cbxPhone.Items4"),
-            resources.GetString("cbxPhone.Items5")});
             resources.ApplyResources(this.cbxPhone, "cbxPhone");
             this.cbxPhone.Name = "cbxPhone";
             // 

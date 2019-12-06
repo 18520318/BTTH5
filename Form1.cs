@@ -13,11 +13,15 @@ namespace BTH5
 {
     public partial class Form1 : Form
     {
+        Model model = new Model();
         public Form1()
         {
             InitializeComponent();
             QLSV.StartService();
-            
+
+            cbxPhone.DataSource = model.AreaCode;
+            cbxPhone.SelectedIndex = 0;
+
             ToggleInfo();
             btnSave.Enabled = false;
 
