@@ -10,7 +10,7 @@ namespace BTH5
     public class Model
     {
         public BindingList<string> AreaCode { get; set; } = new BindingList<string>() {
-            "+84", "+86", "+79"
+            "+84", "+86", "+79", "+888888"
         };
     }
 }
